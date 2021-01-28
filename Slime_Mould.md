@@ -14,7 +14,7 @@ El moho de fango, mejor conocido como “Slime Mould”  o “Physarum Polycepha
 Este organismo tiene varias etapas en su vida, descritas por el siguiente diagrama:
 
 <p align="center">
-  <img src="https://github.com/RichardoBM12/Slime_Mould_MBA/img/lifecycle.jpg?raw=true"/>
+  <img src="https://github.com/a-valderrama/Genomica/blob/master/GenomicaComputacional/proyecto_final/img/lifecycle.jpg?raw=true"/>
   
 </p>
 
