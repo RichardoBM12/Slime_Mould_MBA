@@ -93,6 +93,7 @@ Proceso de exploración utilizando caminadores aleatorios con parámetros espec�
 <p align="center">
   <img src="https://github.com/RichardoBM12/Slime_Mould_MBA/blob/master/img/final-slime.png?raw=true"/>
 </p>
+
 ### Conclusiones
 
 Logramos construir la base para la aproximación del comportamiento del Slime. Faltó incluir la repulsión utilizando los vectores ortogonales a la dirección de los agentes exploradores que, por las pruebas hechas, seguramente mejorará considerablemente el desarrollo de este proceso. 
