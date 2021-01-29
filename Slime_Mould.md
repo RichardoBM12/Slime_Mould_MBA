@@ -79,11 +79,11 @@ Enlistamos algunos modelos que creemos pueden mostrar bastante bien la esencia y
     <tr>
       <td>
         <img src="gif/boids.gif" width="600" height="400" />
-        SIR-dist
+        Boids
       </td>
       <td>
         <img src="gif/boids_predator.gif" width="600" height="400" />
-        SIR-no-dist
+        Boids_predator
       </td>
       </tr>
    </tbody>
@@ -97,6 +97,21 @@ Enlistamos algunos modelos que creemos pueden mostrar bastante bien la esencia y
 
   - Si la termita no esta cargando nada y se encuentra una astilla de madera, la recoge.
   - Si está cargando una astilla de madera y se encuentras otra, suelta la astilla y continua su camino.
+  
+  <table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="gif/Termitas.gif" width="600" height="400" />
+        Termintas
+      </td>
+      <td>
+        <img src="gif/Termintas-2colores.gif" width="600" height="400" />
+        Termitas-2colores
+      </td>
+      </tr>
+   </tbody>
+</table>
 
 ## Objetivo
 
