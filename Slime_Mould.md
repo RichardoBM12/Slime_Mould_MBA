@@ -103,10 +103,10 @@ Enlistamos algunos modelos que creemos pueden mostrar bastante bien la esencia y
     <tr>
       <td>
         <img src="gif/Termitas.gif" width="600" height="400" />
-        Termintas
+        Termitas
       </td>
       <td>
-        <img src="gif/Termintas-2colores.gif" width="600" height="400" />
+        <img src="gif/Termitas-2colores.gif" width="600" height="400" />
         Termitas-2colores
       </td>
       </tr>
