@@ -66,12 +66,28 @@ Enlistamos algunos modelos que creemos pueden mostrar bastante bien la esencia y
       </tr>
    </tbody>
 </table>
+
 - **Boids**: Modela el comportamiento de mandas, basado en el comportamiento de parvadas.
   **<u>Reglas</u>**:
 
   - *Separación*: Los agentes buscan alejarse de sus compañeros dentro de cierto radio.
   - *Alineamiento*: Los agentes buscan alinear su dirección con respecto al promedio de sus compañeros, dentro de cierto radio.
   - *Cohesión*: Los agentes buscan modificar su posición con respecto al "centro" de la posición de sus compañeros, dentro de cierto radio.
+  
+  <table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="gif/boids.gif" width="600" height="400" />
+        SIR-dist
+      </td>
+      <td>
+        <img src="gif/boids-predator.gif" width="600" height="400" />
+        SIR-no-dist
+      </td>
+      </tr>
+   </tbody>
+</table>
 
   [^https://vimeo.com/58291553?fbclid=IwAR1C1qw5Jv7bCCR8nZy5QSIF5Ynx8-o3E6pdoWmCVb6QwYjL1JPz6oz-L6I]: 
 
