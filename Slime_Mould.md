@@ -1,9 +1,9 @@
-# <u>Estudiando el *Slime Mould*</u>
+# <u>Estudiando el *Slime Mould*: Modelo computacional basado en agentes, para aproximar su comportamiento</u>
 
 ### Integrantes:
 
-- ***Badillo Macías Ricardo***
-- ***Valderrama Silva Alejandro***
+- ***Badillo Macías Ricardo (RichardoBM12)***
+- ***Valderrama Silva Alejandro (a-valderrama)***
 
 ## Introducción
 
@@ -49,8 +49,6 @@ Enlistamos algunos modelos que creemos pueden mostrar bastante bien la esencia y
 - **Boids**: Modela el comportamiento de mandas, basado en el comportamiento de parvadas.
 
   [^https://vimeo.com/58291553?fbclid=IwAR1C1qw5Jv7bCCR8nZy5QSIF5Ynx8-o3E6pdoWmCVb6QwYjL1JPz6oz-L6I]: 
-
-  - **Boids-Ecosystem**: Modela el comportamiento de los boids en un ecosistema con alimento y depredadores.
 
 - **Termitas apiladoras**: Modela una forma de "acomodar" distintas astillas de madera por termitas. 
   Posiblemente este sea el modelo, de los aquí presentados, que mejor muestre como a partir de reglas sencillas se puede describir un comportamiento global complejo. 
