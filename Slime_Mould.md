@@ -82,7 +82,7 @@ Enlistamos algunos modelos que creemos pueden mostrar bastante bien la esencia y
         SIR-dist
       </td>
       <td>
-        <img src="gif/boids-predator.gif" width="600" height="400" />
+        <img src="gif/boids_predator.gif" width="600" height="400" />
         SIR-no-dist
       </td>
       </tr>
