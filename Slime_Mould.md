@@ -86,10 +86,26 @@ A partir de incluir el reforzamiento de caminos por medio del concepto de quimio
   <img src="https://github.com/a-valderrama/Genomica/blob/master/GenomicaComputacional/proyecto_final/img/Metodologia.png?raw=true"/>
 </p>
 
-### Resultado del modelo hasta ahora...
+### Resultados
 
-Movimiento de exploración sin incluir la atracción de alimento.
+Proceso de exploración utilizando caminadores aleatorios con parámetros específicos, segregación de químicos y construcción de "venas" por medio de agentes. Falta incluir la atracción de alimento.
 
 <p align="center">
-  <img src="https://github.com/a-valderrama/Genomica/blob/master/GenomicaComputacional/proyecto_final/img/DLA-inverso-v1.jpeg?raw=true"/>
+  <img src="https://github.com/RichardoBM12/Slime_Mould_MBA/blob/master/img/final-slime.png?raw=true"/>
 </p>
+### Conclusiones
+
+Logramos construir la base para la aproximación del comportamiento del Slime. Faltó incluir la repulsión utilizando los vectores ortogonales a la dirección de los agentes exploradores que, por las pruebas hechas, seguramente mejorará considerablemente el desarrollo de este proceso. 
+
+Pese a que nos faltó incluir la atracción hacia fuentes de alimento, es notable que los parámetros utilizados en este experimento lograron dar una muy buena aproximación; lo que proporciona una sólida base para permitir un futuro análisis. 
+
+### Referencias
+
+- [https://complejidad.iiec.unam.mx/cursotaller2020/mba/index.php](https://complejidad.iiec.unam.mx/cursotaller2020/mba/index.php)
+- [https://warwick.ac.uk/fac/sci/lifesci/outreach/slimemold/facts/](https://warwick.ac.uk/fac/sci/lifesci/outreach/slimemold/facts/)
+- Wilensky, U. (1997). NetLogo Slime model. http://ccl.northwestern.edu/netlogo/models/Slime. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.       
+- Jones, Jeff. "Applications of Multi-Agent Slime Mould Computing" en The International Journal of Parallel, Emergent and Distributed Systems, Vol. 00, No. 00. UK (2015).
+- Wilensky, Uri & Rand, William. An Introduction to Agent-Based Model. The MIT Press. Estados Unidos, 2015.
+
+
+
