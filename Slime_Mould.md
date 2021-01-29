@@ -57,9 +57,11 @@ Enlistamos algunos modelos que creemos pueden mostrar bastante bien la esencia y
     <tr>
       <td>
         <img src="gif/SIR-dist.gif" width="600" height="400" />
+        SIR-dist
       </td>
       <td>
-        <img src="gif/SIR-dist.gif" width="600" height="400" />
+        <img src="gif/SIR-no-dist.gif" width="600" height="400" />
+        SIR-no-dist
       </td>
       </tr>
    </tbody>
