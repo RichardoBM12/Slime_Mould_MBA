@@ -135,18 +135,11 @@ A partir de incluir el reforzamiento de caminos por medio del concepto de quimio
 
 Proceso de exploración utilizando caminadores aleatorios con parámetros específicos, segregación de químicos y construcción de "venas" por medio de agentes. Falta incluir la atracción de alimento.
 
-<table>
-  <tbody>
-    <tr>
-      <td>
-        <img src="https://github.com/RichardoBM12/Slime_Mould_MBA/blob/master/img/final-slime.png?raw=true"/>
-      </td>
-      <td>
-        <img src="gif/Slime.gif" width="600" height="600" />
-      </td>
-      </tr>
-   </tbody>
-</table>
+<p align="center">
+  <img src="https://github.com/RichardoBM12/Slime_Mould_MBA/blob/master/img/final-slime.png?raw=true"/>
+  <img src="gif/Slime.gif" width="600" height="400" />
+</p>
+
 
 ### Conclusiones
 
