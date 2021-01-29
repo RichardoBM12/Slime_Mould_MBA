@@ -128,7 +128,7 @@ A partir de incluir el reforzamiento de caminos por medio del concepto de quimio
 ## Diagrama de la metodología
 
 <p align="center">
-  <img src="https://github.com/a-valderrama/Genomica/blob/master/GenomicaComputacional/proyecto_final/img/Metodologia.png?raw=true"/>
+  <img src="img/Metodologia.png"/>
 </p>
 
 ### Resultados
