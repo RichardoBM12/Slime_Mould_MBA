@@ -142,7 +142,7 @@ Proceso de exploración utilizando caminadores aleatorios con parámetros espec�
         <img src="https://github.com/RichardoBM12/Slime_Mould_MBA/blob/master/img/final-slime.png?raw=true"/>
       </td>
       <td>
-        <img src="gif/Slime.gif" />
+        <img src="gif/Slime.gif" width="600" height="600" />
       </td>
       </tr>
    </tbody>
