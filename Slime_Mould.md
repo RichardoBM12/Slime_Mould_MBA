@@ -15,7 +15,7 @@ Este organismo tiene varias etapas en su vida, descritas por el siguiente diagra
 
 <p align="center">
   <img src="https://github.com/a-valderrama/Genomica/blob/master/GenomicaComputacional/proyecto_final/img/lifecycle.jpg?raw=true"/>
-  
+
 </p>
 
 La etapa, en la que se encuentra el organismo, en la que está nuestro interés (porque es cuando observamos estas señales de inteligencia) es la etapa adulta del Slime. Mejor conocida como *Plasmodium*.
@@ -44,27 +44,39 @@ Estos agentes son individuos autónomos computacionales con ciertas propiedades:
 
 Enlistamos algunos modelos que creemos pueden mostrar bastante bien la esencia y utilidad de este paradigma.
 
-- **SIR**: Acercamiento al modelo SIR, originalmente realizado con ecuaciones diferenciales que describe el proceso de contagio en una epidemia.
+- **SIR**: Acercamiento al modelo SIR, originalmente realizado con ecuaciones diferenciales, enfoque **top-down**, que describe el proceso de contagio en una epidemia (su utilidad reside en describir los patrones que se derivan de la dinámica (temporal y/o espacial) de las interacciones entre agentes promedio). 
+  **<u>Reglas:</u>**
+
+  - *Contagio:* Si una persona sana tiene una persona enferma en su vecindad de Moore entonces se contagia y cambia su estado a enfermo. Una persona enferma no puede contagiar nuevamente a una persona recuperada.
+  - *Recuperación:* Una persona enferma se recupera después de k tiempos y cambia su estado a recuperado.
+  - *Movimiento*: Las personas son caminadores aleatorios con un rango de visión determinado (por ejemplo, -60 a 60 grados).
+  - *Distanciamiento social*: Las personas que apliquen distanciamiento social no se moverán.
 
 - **Boids**: Modela el comportamiento de mandas, basado en el comportamiento de parvadas.
+  **<u>Reglas</u>**:
+
+  - *Separación*: Los agentes buscan alejarse de sus compañeros dentro de cierto radio.
+  - *Alineamiento*: Los agentes buscan alinear su dirección con respecto al promedio de sus compañeros, dentro de cierto radio.
+  - *Cohesión*: Los agentes buscan modificar su posición con respecto al "centro" de la posición de sus compañeros, dentro de cierto radio.
 
   [^https://vimeo.com/58291553?fbclid=IwAR1C1qw5Jv7bCCR8nZy5QSIF5Ynx8-o3E6pdoWmCVb6QwYjL1JPz6oz-L6I]: 
 
 - **Termitas apiladoras**: Modela una forma de "acomodar" distintas astillas de madera por termitas. 
   Posiblemente este sea el modelo, de los aquí presentados, que mejor muestre como a partir de reglas sencillas se puede describir un comportamiento global complejo. 
+  **<u>Reglas:</u>**
 
-  1. Si la termita no esta cargando nada y se encuentra una astilla de madera, la recoge.
-  2. Si está cargando una astilla de madera y se encuentras otra, suelta la astilla y continua su camino.
+  - Si la termita no esta cargando nada y se encuentra una astilla de madera, la recoge.
+  - Si está cargando una astilla de madera y se encuentras otra, suelta la astilla y continua su camino.
 
 ## Objetivo
 
-Lo que buscamos hacer, con ayuda de la MBA, es crear un modelo que aproxime el comportamiento objetivo del *Slime Mould*. De esta manera nos será posible cuantificar qué tanto se aproxima el modelo y análisis realizado, al comportamiento real del Slime.
+Aproximar el comportamiento del *Slime Mould* utilizando el paradigma de la MBA. Es decir, buscamos crear un modelo que aproxime el comportamiento objetivo del *Slime Mould*. 
 
-Además, con este proyecto buscamos mostrar un poco más del mundo que gira en torno a este paradigma, MBA. Para esto además del modelo que proponemos aquí incluiremos algunos otros modelos básicos que muestran lo que podemos hacer con la MBA.
+Además, con este proyecto buscamos mostrar un poco más del mundo que gira en torno a este paradigma, MBA. Para esto además del modelo que proponemos aquí incluímos algunos otros modelos básicos que muestran lo que podemos hacer con la MBA.
 
 ## Hipótesis
 
-A partir de incluir el reforzamiento de caminos por medio del concepto de quimiotaxis a un modelo básico de exploración (basado en movimientos brownianos) podremos aproximarnos al comportamiento de exploración que presenta el Slime Mould. 
+A partir de incluir el reforzamiento de caminos por medio del concepto de quimiotaxis, segregación de químicos, a un modelo básico de exploración (basado en movimientos brownianos) podremos aproximarnos al comportamiento de exploración que presenta el Slime Mould. 
 
 [^El movimiento browniano es el movimiento aleatorio que se observa en las partículas que se hallan en un medio fluido]: 
 
