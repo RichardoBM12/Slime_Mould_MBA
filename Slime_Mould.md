@@ -51,7 +51,7 @@ Enlistamos algunos modelos que creemos pueden mostrar bastante bien la esencia y
   - *Recuperación:* Una persona enferma se recupera después de k tiempos y cambia su estado a recuperado.
   - *Movimiento*: Las personas son caminadores aleatorios con un rango de visión determinado (por ejemplo, -60 a 60 grados).
   - *Distanciamiento social*: Las personas que apliquen distanciamiento social no se moverán.
-<img src="gif/SIR-dist.gif" width="400" height="400" />
+<img src="gif/SIR-dist.gif" width="600" height="400" />
 - **Boids**: Modela el comportamiento de mandas, basado en el comportamiento de parvadas.
   **<u>Reglas</u>**:
 
